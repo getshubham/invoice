@@ -1,7 +1,7 @@
 
 header {
     text-align: right;
-    /* margin-right: 15vw; */
+    margin-right: 15vw;
     line-height: 1em;
     /* margin-right: 10%; */
 }
@@ -31,8 +31,11 @@ nav > p > span {
 
 main {
     width: 100%;
-   margin: 5rem auto 0 auto;
+    /* margin: 5rem auto 0 auto; */
     
+}
+main > article > section > p{
+    margin-top: -2px;
 }
 
 .parent {
@@ -42,8 +45,9 @@ main {
 }
 
 .child {
-    width: 40%;
+    width: 50%;
 }
+
 
 /* costomize table */
 
@@ -83,4 +87,17 @@ footer {
 
 .sign {
     margin-left: 30%;
+}
+
+
+@media screen and (min-width: 500px) {
+    header, nav, main, footer {
+        margin: 0 10% 0 10%;
+    }
+    table, footer {
+        width: 80%;
+    }
+    main {
+        margin-top: 3rem;
+    }
 }
