@@ -1,0 +1,35 @@
+header {
+    text-align: right;
+    margin-right: 15vw;
+    line-height: 1em;
+}
+
+.yellow-lines {
+    border-top: 2px solid rgb(221, 172, 12);    
+    border-bottom: 2px solid rgb(221, 172, 12);
+}
+
+nav {
+    margin-top: 2rem;
+    text-align: right;
+    margin-right: 15vw;
+
+}
+
+nav > p > span {
+    margin-left: 2em;
+}
+
+main {
+
+   margin: 5rem auto 0 auto;
+    
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+.child {
+    width: 50%;
+}
