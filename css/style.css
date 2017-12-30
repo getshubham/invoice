@@ -1,35 +1,86 @@
+
 header {
     text-align: right;
-    margin-right: 15vw;
+    /* margin-right: 15vw; */
     line-height: 1em;
+    /* margin-right: 10%; */
+}
+
+header > h3 {
+    margin-top: -1em;
 }
 
 .yellow-lines {
+    margin-top: 10px;
     border-top: 2px solid rgb(221, 172, 12);    
     border-bottom: 2px solid rgb(221, 172, 12);
+
 }
 
 nav {
     margin-top: 2rem;
     text-align: right;
-    margin-right: 15vw;
+    /* margin-right: 15vw; */
 
 }
 
 nav > p > span {
     margin-left: 2em;
+    display: inline;
 }
 
 main {
-
+    width: 100%;
    margin: 5rem auto 0 auto;
     
 }
 
 .parent {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
+
 .child {
-    width: 50%;
+    width: 40%;
+}
+
+/* costomize table */
+
+table, th, td {
+  padding: 0.3em; 
+  border: 1px solid #DCDCDC;
+  text-align: left;
+
+  }
+ 
+table { 
+  border-collapse: collapse; 
+}
+section {
+  overflow: auto;
+}
+  
+tr:hover {
+  background-color: rgb(255, 227, 215); 
+}
+
+thead, tfoot {
+    background-color: rgb(255, 227, 215); 
+    
+}
+
+footer {
+    border-top: solid 2px rgb(221, 172, 12);
+    width: 100%;
+    padding-top: 3px;
+}
+.cover-row {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+
+.sign {
+    margin-left: 30%;
 }

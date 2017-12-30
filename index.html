@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +8,33 @@
     <title>Invoice</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    
-    <header>
-        <h1>TAX INVOICE</h1>
-        <h3>UNDER GST ACT</h3>
-        <h3 class="yellow-lines">ORIGINAL FOR RECEIPT</h3>
-    </header>
 
-    <nav>
-        <p>
-            402-B, Tirumalakrupa, Highland Complex, Charkop Village, Kandivali-west, Mumbai-400 067, Maharashtra, India.<br>
-            <span>Mob: 98200 39065</span> <span>www.versatileadvertiising.com</span> <span>versatile.advt@gmail.com</span>
-        </p>
-        <p>
-            <strong class="yellow-lines">PAN: AQTPM5275G GSTIN: 27AQTPM5275G1Z8</strong>
-        </p>
-    </nav>
+<body>
+
+    <header>
+        <h2>TAX INVOICE</h2>
+        <h3>UNDER GST ACT</h3>
+        <strong class="yellow-lines">ORIGINAL FOR RECEIPT</strong>
+
+
+        <nav>
+            <p>
+                402-B, Tirumalakrupa, Highland Complex, Charkop Village, Kandivali-west, Mumbai-400 067, Maharashtra, India.
+                <br>
+                <span>Mob: 98200 39065</span>
+                <span>www.versatileadvertiising.com</span>
+                <span>versatile.advt@gmail.com</span>
+            </p>
+            <p>
+                <strong class="yellow-lines">PAN: AQTPM5275G GSTIN: 27AQTPM5275G1Z8</strong>
+            </p>
+        </nav>
+    </header>
 
     <main>
 
         <article class="parent">
-        
+
             <section class="child">
                 <em>Bill To</em>
                 <p>
@@ -40,7 +46,7 @@
                     <span>State: Gujrat</span> State Code: 24
                 </p>
             </section>
-        
+
             <section class="child">
                 <strong>INVOICE No. 032/NOV11/2017-2018
                     <span>Date: 09/11/2017</span>
@@ -51,18 +57,174 @@
                 <strong>Buyer's GST No.: 24AAACW5582G1Z9</strong>
                 <p>Contact Person: </p>
                 <p>Place of Supply: Gujrat</p>
-        
+
             </section>
-        
+
         </article>
 
+        <section id="table">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Sr. No.</th>
+                        <th scope="col">
+                            <strong>Description</strong>
+                        </th>
+                        <th scope="col">HSN/HAC</th>
+                        <th scope="col">UQC</th>
+                        <th scope="col">Qty</th>
+                        <th scope="col">Unit Price</th>
+                        <th scope="col">
+                            <strong>Value</strong>
+                        </th>
+                        <th scope="col">
+                            <strong>CGST</strong>
+                            <table>
+                                <tr>
+                                    <th>Rate</th>
+                                    <th>Amount</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th scope="col">
+                            <strong>SGST</strong>
+                            <table>
+                                <tr>
+                                    <th>Rate</th>
+                                    <th>Amount</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th scope="col">
+                            <strong>IGST</strong>
+                            <table>
+                                <tr>
+                                    <th>Rate</th>
+                                    <th>Amount</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th scope="col">
+                            <strong>Total Value</strong>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="11">Window Installation</td>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>Yamaji,</td>
+                        <td>4414</td>
+                        <td>PCS.</td>
+                        <td>49'</td>
+                        <td>560.00</td>
+                        <td>27,440.00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>35,123.20</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Krishna, Ahemdabad</td>
+                        <td>4414</td>
+                        <td>PCS.</td>
+                        <td>57'</td>
+                        <td>560.00</td>
+                        <td>31,920.00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>35,123.20</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Khandelwal, Baroda</td>
+                        <td>4414</td>
+                        <td>PCS.</td>
+                        <td>54'</td>
+                        <td>560.00</td>
+                        <td>30,240.00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>35,123.20</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Caliber, Hydrabad</td>
+                        <td>4414</td>
+                        <td>PCS.</td>
+                        <td>105'</td>
+                        <td>560.00</td>
+                        <td>58,800.00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>35,123.20</td>
+                    </tr>
+                    <tr>
+                        <td class="cover-row" colspan="11"></td>
+                    </tr>
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <strong>Gross Total</strong>
+                        </td>
+                        <td colspan="5">1,48,400.00</td>
+                        <td>3841.60</td>
+                        <td>3841.60</td>
+                        <td>33868.80</td>
+                        <td>
+                            <strong>1,89,952.00</strong>
+                        </td>
+                    </tr>
+                </tfoot>
+
+            </table>
+        </section>
+        <p>Rupees in words: One Lakh Eighty Nine Thousand Nine Hundred Fifty Two Only</p>
 
     </main>
-    
+
+    <footer>
+        <strong>Versatile Advertising Bank Details:</strong>
+        <br>
+        <p>
+            Bank Name: HDFC Bank Branch: Charkop, Kandivali(West), Mumbai-400 067
+            <br> A/C No.: 502000010191331 IFSC code: HDFC0000591 For
+            <span class="sign">
+                <strong>VERSATILE ADVERTISING</strong>
+            </span>
+            <br> RCM applicable: N
+            <strong>Terms and Conditions:</strong>
+            <br> - Payment to be maid direct to the firm by cross/order cheques.
+            <br> - Complaint should be informed in writing within a day or on receipt of the bill.
+            <br> - Interest @24% will be charged on bills remaining unpaid for day after due date.
+            <br>
+            <br>
+            <strong>Subject To Mumbai JURISDICTION</strong>
+            <span>
+                <strong>Receiver's Signature</strong>
+            </span>
+            <span class="sign">Autorized Signatory</span>
+            <br> E. &amp; O.E
+
+        </p>
+
+    </footer>
+
 
 
 
 
 
 </body>
+
 </html>
