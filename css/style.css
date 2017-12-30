@@ -1,9 +1,7 @@
 
 header {
     text-align: right;
-    margin-right: 15vw;
     line-height: 1em;
-    /* margin-right: 10%; */
 }
 
 header > h3 {
@@ -14,14 +12,11 @@ header > h3 {
     margin-top: 10px;
     border-top: 2px solid rgb(221, 172, 12);    
     border-bottom: 2px solid rgb(221, 172, 12);
-
 }
 
 nav {
     margin-top: 2rem;
     text-align: right;
-    /* margin-right: 15vw; */
-
 }
 
 nav > p > span {
@@ -31,8 +26,7 @@ nav > p > span {
 
 main {
     width: 100%;
-    /* margin: 5rem auto 0 auto; */
-    
+    margin: 5rem auto 0 auto;   
 }
 main > article > section > p{
     margin-top: -2px;
@@ -99,5 +93,11 @@ footer {
     }
     main {
         margin-top: 3rem;
+    }
+    .unique {
+        margin-left: 10rem;
+    }
+    .sign2 {
+        margin-left: 40%;
     }
 }
